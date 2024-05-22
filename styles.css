@@ -1,0 +1,74 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; 
+}
+
+#container{
+	width: 450px;
+}
+
+form{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+.form-group{
+	margin-bottom: 20px;
+}
+
+label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button{
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #0056b3;
+}
+h2{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.responseStatus-fail{
+	color: red;
+}
+.responseStatus-success{
+	color: green;
+}
+.responseStatus{
+	text-align: center;
+	font-size: 15px;
+}
+#forgetPasswordBtn{
+	text-decoration: none;
+    color: #7f7d7d;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 14px;
+}
